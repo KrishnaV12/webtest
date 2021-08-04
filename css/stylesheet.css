@@ -1,0 +1,56 @@
+ @signup-form {
+    overflow: hidden;
+  }
+  input {
+    float: right;
+    clear: both;
+  }
+
+  @allform{
+    position: absolute;
+    right: 150px;
+    width: 200px;
+    height: 120px;
+    border: 3px solid green; 
+  } 
+
+  #sec{ float:right;  width:50%}
+
+  #brr{
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+    color: rgb(202, 196, 196)(202, 196, 196);
+  }
+
+
+  body {
+    overflow: scroll; /* Show scrollbars */
+  }
+  
+  div.scroll { 
+    
+   
+ 
+    overflow: auto; 
+    
+} 
+
+.desc {
+    margin-bottom: 23px;
+    position: relative;
+    box-shadow: #ff6801; 
+    border-radius: 0in;
+    border-color: #ff6801;
+}
+  
+  input, select {
+    display: block;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    padding: 11px 20px;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 13px; }
+    input:focus, select:focus {
+      border: 1px solid #ff6801; }
